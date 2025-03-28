@@ -4,7 +4,7 @@ Neural network-based binary classification of Coronary Heart Disease (CHD) using
 
 This project uses a **binary-class Neural Network classifier** built with **Keras** to predict the presence of Coronary Heart Disease (CHD) based on patient diagnostic data from the Cleveland Heart Disease dataset.
 
-## 📁 Dataset
+##  Dataset
 - **Source**: [UCI Machine Learning Repository - Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease)
 - **Attributes**: 13 features + 1 target column (`num`)
 - **Target Conversion**: 
@@ -12,7 +12,7 @@ This project uses a **binary-class Neural Network classifier** built with **Kera
   - `num = 1–4` → CHD present (label `1`)
 - A new binary column `binary_num` was created and used as the target variable.
 
-## 🛠️ Key Steps
+##  Key Steps
 
 1. **Data Loading**
    - Dataset loaded from Google Drive using `pandas`.
@@ -49,14 +49,14 @@ This project uses a **binary-class Neural Network classifier** built with **Kera
   - Use EarlyStopping
   - Reduce number of epochs
 
-## 🧠 Libraries Used
+##  Libraries Used
 - `pandas`
 - `numpy`
 - `scikit-learn`
 - `matplotlib`
 - `keras` (TensorFlow backend)
 
-## 📌 How to Run
+##  How to Run
 
 1. Clone the repo or open in Google Colab
 2. Mount Google Drive and update dataset path
@@ -69,7 +69,7 @@ This project uses a **binary-class Neural Network classifier** built with **Kera
 
 ---
 
-## 🙋🏽‍♂️ Author
+##  Author
 
 **Tsegie Kassahun**  
 Health Informatics & Data Science | Military Veteran | Occupational Therapist  
